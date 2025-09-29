@@ -1,0 +1,23 @@
+title: راهنمای کامل SQLAlchemy فارسی
+description: مرجع جامع فارسی برای یادگیری SQLAlchemy
+theme: minima
+lang: fa
+direction: rtl
+
+# GitHub Pages configuration
+readme_index:
+  with_frontmatter: true
+
+# Markdown processor settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  hard_wrap: false
+
+# Plugin settings
+plugins:
+  - jekyll-readme-index
+  - jekyll-optional-front-matter
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
